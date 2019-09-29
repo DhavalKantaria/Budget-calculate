@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Budget App</title>
+        <link type="text/css" href='style.css' rel='stylesheet'></link>
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="top">
+            <div class="budget">
+                <div class="budget-title">
+                    Available budget in <span class="budget-title--month">%Month%</span>
+                </div>
+                
+                <div class="budget-value">
+                    +120.00
+                </div>
+                
+                <div class="budget-income clearfix">
+                    <div class="budget-income-text">Income</div>
+                    <div class="right">
+                        <div class="budget-income--value">+4300.00</div>
+                        <div class="budget-income--percentage"></div>
+                    </div>
+                </div>
+                
+                <div class="budget-expense clearfix">
+                    <div class="budget-expense-text">expense</div>
+                    <div class="right clearfix">
+                        <div class="budget-expense--value">-300.00</div>
+                        <div class="budget-expense--percentage">45%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bottom">
+            <div class="add">
+                <div class="add-container">
+                    <select class="add-type">
+                        <option value="inc" selected>+</option>
+                        <option value="exp">-</option>
+                    </select>              
+                    <input type="text" placeholder="Add description" class="add-description">
+                    <input type="number" placeholder="Value" class="add-value">
+                    <button class="add-btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>  
+            
+            <div class="container clearfix">
+                <div class="income">
+                    <h2 class="income-title">Income</h2>
+                    <div class="income-list">
+                        <!--
+                        <div class="item clearfix" id="income-0">
+                            <div class="item-description">Salary</div>
+                            <div class="right clearfix">
+                                <div class="item-value">+2000.00</div>
+                                <div class="item-delete">
+                                    <button class="item-delete-btn">
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="income-1">
+                            <div class="item-description">Sold car</div>
+                            <div class="right clearfix">
+                                <div class="item-value">+200.00</div>
+                                <div class="item-delete">
+                                    <button class="item-delete-btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                
+                <div class="expense">
+                    <h2 class="expense-title">Expense</h2>
+                    <div class="expense-list">
+                        <!--
+                        <div class="item clearfix" id="expense-0">
+                            <div class="item-description">Rent</div>
+                            <div class="right clearfix">
+                                <div class="item-value">-400.00</div>
+                                <div class="item-percentage">21%</div>
+                                <div class="item-delete">
+                                    <button class="item-delete-btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="expense-1">
+                            <div class="item-description">Holiday</div>
+                            <div class="right clearfix">
+                                <div class="item-value">-1200.00</div>
+                                <div class="item-percentage">10%</div>
+                                <div class="item-delete">
+                                    <button class="item-delete-btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
