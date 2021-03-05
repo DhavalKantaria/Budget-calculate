@@ -1,4 +1,5 @@
 console.log("Hello world");
+console.log("Hello world");
 // BUDGET CONTROLLER
 var budgetController = (function(){
     
